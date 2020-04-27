@@ -26,6 +26,7 @@ function exerciseDog(dogName, dogBreed){
  } 
  return array;
 }
+// use for loop on routine to access each function and pass the attributes, push all the return strings into new array
 
 // function writeCards( names , event) {
 //   let array = [];
