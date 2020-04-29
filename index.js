@@ -30,5 +30,5 @@ function exerciseDog(dogName, dogBreed){
     // .map creates a new array and calling each element of the routine index,
     // which is a function, and passing dogName and dogBreed into each function 
     // in the routine)
-    return routine.map(newFunction => newFunction(dogName, dogBreed))
+    return routine.map(newFunctionCreatedToCallOnItsOwnExecutionAndPlaceThemInsideANewArrayCreatedByTheMapMethod=> newFunctionCreatedToCallOnItsOwnExecutionAndPlaceThemInsideANewArrayCreatedByTheMapMethod(dogName, dogBreed))
 }
